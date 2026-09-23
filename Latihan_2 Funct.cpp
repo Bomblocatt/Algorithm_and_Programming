@@ -1,2 +1,3 @@
-//Membuat program untuk menghitung rata-rata 
-//user akan memasukkan sejumlah n bilangan kemudian program akan menghitung jumlah rata-rata dari bilangan yang dimasukkan pengguna
+//Buatlah program menggunakan while loop yang menjumlahkan semua bilangan dari 1
+//hingga bilangan yang diinput oleh pengguna.
+
