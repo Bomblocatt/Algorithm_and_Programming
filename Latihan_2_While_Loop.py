@@ -1,13 +1,4 @@
-#Buatlah program menggunakan while loop yang menjumlahkan semua bilangan dari 1 hingga bilangan yang diinput oleh pengguna.
+#buatlah program menggunakan while loopyang menjumlahkan semua bilangan dari 1 hingga bilangan yang di input user
 
-bilangan_akhir = int(input("Masukkan bilangan akhir: "))
-
-i = 1 
-
-total = 0  # Variabel penampung hasil penjumlahan
-
-while i <= bilangan_akhir:
-    total += i  # Menambahkan nilai i ke dalam total
-    i += 1
-
-print("Total penjumlahan:", total)
+angka_akhir = input("Masukkan angka akhir: ")
+for i in range (1, angka_akhir):
