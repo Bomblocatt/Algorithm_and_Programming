@@ -1,26 +1,17 @@
 #Masukkan sejumlah n bilangan kemudian program akan menghitung jumlah rata-rata dari bilangan yang dimasukkan user
 
-def prosedur_rata_rata(bilangan):
-    rata_rata = bilangan += 
-    return rata_rata
+def prosedur_rata_rata(n):
+    total = 0
+    
+    for i in range(1, n + 1):
+        bilangan = float(input(f"Masukkan bilangan ke-{i}: "))
+        total += bilangan
+        
+    rata_rata = total / n
+    print(f"\nJumlah total: {total}")
+    print(f"Rata-rata dari {n} bilangan tersebut adalah: {rata_rata}")
 
+print("Program Hitung Rata-rata")
+jumlah_n = int(input("Masukkan banyaknya bilangan (n) yang ingin dihitung: "))
 
-
-
-
-
-
-
-
-
-
-
-#def rata_rata(bilangan):
-#    hasil = 1
-#   for i in range (1, bilangan faktorial + 1):
-#       hasil += i
-#    return hasil
-#
-#bilangan_input = int(input("Masukkan bilangan: "))
-#hasil_akhir = rata_rata(bilangan_input)
-#print(f"Hasil penjumlahan rata-rata dari ")
+prosedur_rata_rata(jumlah_n)
